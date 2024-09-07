@@ -113,7 +113,7 @@ footer a {
     .float-left {
         float:left;
         width: 50%;
-        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .float-right {
