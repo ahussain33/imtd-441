@@ -102,9 +102,6 @@ footer a {
 
 @media (min-width: 700px) {
     .header {
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
         flex-direction: row; 
 
     }
