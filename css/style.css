@@ -45,7 +45,7 @@ p {
 .float-left button {
     margin-left: 33.33%;
     margin-right: 33.33%;
-    width: 33.33px;
+    width: 33.33%;
     text-align: center;
     height: auto;
     padding: 10px 30px;
@@ -70,7 +70,10 @@ h1, h2 {
 }
 
 .header {
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;  
     display: flex;
     flex-direction: column; 
     height: auto;
