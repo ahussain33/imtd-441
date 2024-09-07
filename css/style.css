@@ -118,6 +118,7 @@ footer a {
     .float-right {
         float:right;
         width: 50%;
+        text-align: center;
     }
 }
 
