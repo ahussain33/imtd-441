@@ -65,6 +65,11 @@ p {
     box-shadow: 5px 5px white;  
 }
 
+.float-left a {
+    text-decoration: none;
+    color: white;
+}
+
 h1, h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
