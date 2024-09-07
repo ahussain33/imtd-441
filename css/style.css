@@ -42,6 +42,28 @@ p {
     line-height: 2em;
 }
 
+.float-left button {
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    width: 120px;
+    text-align: center;
+    height: auto;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px white;
+
+}
+
+.float-left button:hover {
+    background-color: transparent;
+    border: 2px white solid;
+    box-shadow: 5px 5px white;  
+}
+
 h1, h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -103,15 +125,21 @@ footer a {
 @media (min-width: 1000px) {
     .header {
         flex-direction: row; 
-
     }
+    
     .header h1 {
         font-size: 80px;
     }
+    
     .float-left {
         float: left;
         width: 50%;
         margin-right: 10%;
+    }
+    
+      .float-left button {
+        width: 33.33%;
+        padding: 10px 2%;
     }
     
     .float-right {
