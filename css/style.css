@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 .header h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .float-left {
@@ -109,14 +109,14 @@ footer a {
         font-size: 80px;
     }
     .float-left {
-        float:left;
+        float: left;
         width: 50%;
         margin-right: 10%;
     }
     
     .float-right {
-        float:right;
-        width: 40%;
+        float: right;
+        width: 50%;
     }
 }
 
