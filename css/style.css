@@ -37,7 +37,8 @@ li a:hover {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Reddit Sans Condensed", sans-serif;
+    font-size: larger;
     line-height: 2em;
 }
 
@@ -49,9 +50,17 @@ h1, h2 {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column; 
+    height: auto;
+    align-items: stretch;
     color: white;
-    height: 700px;
-    background-image: linear-gradient(20deg, rgb(255, 191, 16), rgb(255, 0, 212));
+    background-image: linear-gradient(20deg, rgb(250, 150, 0), rgb(255, 0, 212));
+}
+
+.header:hover {
+    background-image: linear-gradient(30deg, rgb(255, 0, 128), rgb(255, 145, 0));
 }
 
 .header h1 {
@@ -94,7 +103,9 @@ footer a {
 @media (min-width: 900px) {
     .header {
         padding-left: 10%;
-        pardding-right: 10%;
+        padding-right: 10%;
+        flex-direction: row; 
+
     }
     .header h1 {
         font-size: 80px;
