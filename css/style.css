@@ -113,12 +113,12 @@ footer a {
     .float-left {
         float:left;
         width: 50%;
+        margin-left: 10%;
     }
     
     .float-right {
         float:right;
         width: 50%;
-        text-align: center;
     }
 }
 
